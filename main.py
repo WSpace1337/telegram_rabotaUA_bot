@@ -9,7 +9,7 @@ from aiogram.utils import executor
 import time
 import config
 import parserPy
-import datetime
+
 
 #main
 logging.basicConfig(level=logging.INFO) #configure logging
