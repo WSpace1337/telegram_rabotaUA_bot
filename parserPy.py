@@ -26,7 +26,3 @@ def parse(city):
             'time': work.find('div', class_ = 'publication-time').get_text(strip = True),
             'link': work.find('a', class_ ='ga_listing').get('href')
         })
-#    for worker in workers:
-#        time.sleep(0.5)
-#        print(f'{worker["title"]} \nЗП:{worker["price"]}👛\nГород:{worker["location"]}\nОписание:{worker["description"]} \
-#        \nВремя публикации:{worker["time"]}\n\nLink: https://rabota.ua{worker["link"]}\n')
